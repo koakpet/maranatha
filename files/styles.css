@@ -1,0 +1,323 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url(http://simply-needles.de/wp-content/uploads/2014/10/grey-background-for-site11.jpg);
+}
+* {
+	box-sizing: border-box;
+}
+h2, h3,h4 {
+	padding: 0;
+	margin: 0;
+}
+p {
+	padding: 0;
+	margin: 3px 0 18px 0;
+	position: relative;
+}
+
+
+/** PC VIEW CONTROLS **/
+@media (min-width: 769px){
+/** this setting controls the hearder display for PC view **/
+	.header_image{
+		position: relative;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 240px;
+	}
+	.header_text{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		position: absolute;
+		top: 15%;
+		text-align: center;
+		width: 100%;
+		color: #ffffff
+	}
+	#main_text{
+		font-size: 60px;
+	}
+	#sub_text{
+		font-size: 18px
+	}
+	.menu{
+		position: absolute;
+		top: 2%;
+		right: 6px;
+	}
+	.menu ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		font-size: 21px;
+	}
+	.menu li{
+		float: left;
+		border-right: solid #A9A9A9 1px;
+	}
+	.menu li:last-child{
+		border-right: none;
+	}
+	.buttons li a {
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		padding: 4px 12px;
+		color: #6495ED;
+	}
+	.buttons li a:hover{
+		color: #A9A9A9;
+		
+	}
+
+/** this settings control the body for PC view **/
+	.body {
+	 	width: 69%;
+	 	margin: 15px auto;
+	 	font-size: 18px;
+	}
+	section article {
+		width: 75%;
+		float: right;
+		padding-top: 18px;
+		text-align: justify;
+	}
+	.verse {
+		width: 87%;
+		margin: auto;
+		text-align: center;
+		font-style: italic;
+		font-size: 18px;
+	}
+	section article p {
+		clear: both;
+	}
+	.side_bar {
+		width: 25%;
+		float: left;
+	}
+	.logo{
+		width: 90%;
+		margin: 30px auto;
+	}
+	.links ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		font-size: 27px;
+		width: 75%;
+		margin: auto;
+	}
+	.links li {
+		float: left;
+		padding: 6px;
+	}
+	.articles {
+		width: 75%;
+		float: right;
+		padding-top: 18px; 
+	}
+	span a {
+		border: 1px #6495ED solid;
+		width: 120px;
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		padding: 6px;
+		color: #6495ED;
+	}
+	span a:hover{
+		border: 1px #FFFFFF solid;
+		color: #FFFFFF;
+		background-color: #A9A9A9;
+	}
+}
+
+
+/*** TABLET VIEW CONTROLS ***/
+@media (max-width: 768px){
+ /** this setting controls the hearder display for Tablet view **/
+	.header_image{
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height:300px; 
+		width: 100%;
+	}
+	.logo {
+		position: absolute;
+		top: 2%;
+		left: 2%;
+		height: 60px;
+		width: 105px;
+	}
+	.header_text{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		position: absolute;
+		top: 27%;
+		text-align: center;
+		width: 100%;
+		color: #ffffff
+	}
+	#main_text{
+		font-size: 60px;
+	}
+	#sub_text{
+		font-size: 21px
+	}
+	.menu{
+		position: absolute;
+		top: 2%;
+		right: 6px;
+	}
+	.menu ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		font-size: 21px;
+	}
+	.menu li{
+		float: left;
+		border-right: solid #A9A9A9 1px;
+	}
+	.menu li:last-child{
+		border-right: none;
+	}
+	.buttons li a{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		padding: 4px 12px;
+		color: #6495ED;
+	}
+	.buttons li a:hover{
+		color: #A9A9A9;
+	}
+
+	/** this settings control the body for Tablet view **/
+	.verse{
+		width: 90%;
+		margin: auto;
+	}
+	.verse sup {
+		float: right;
+	}
+	.verse p {
+		text-align: center;
+		font-size: 30px;
+		width: 100%;
+		margin: 3% auto;
+	}
+
+	.body {
+	 	width: 90%;
+	 	margin: 9% auto;
+	 	font-size: 18px;
+	 }
+
+	.articles {
+		float: left;
+		list-style-type: none;
+	 }
+	 .follow_us {
+	 	float: right;
+	 }
+	 .follow_us a{
+	 	font-size: 27px;
+	 }
+}
+
+/***MOBILE VIEW CONTROLS***/
+@media (max-width: 425px){
+/** this setting controls the hearder display for MOBILE view **/
+	.header_image{
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height:150px; 
+		width: 100%;
+	}
+
+	.logo {
+		position: absolute;
+		top: 2%;
+		left: 2%;
+		height: 30px;
+		width: 45px;
+	}
+	.header_text{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		position: absolute;
+		top: 12%;
+		text-align: center;
+		width: 100%;
+		color: #ffffff
+	}
+	#main_text{
+		font-size: 30px;
+	}
+	#sub_text{
+		font-size: 12px
+	}
+	.menu{
+		position: absolute;
+		top: 2%;
+		right: 6px;
+	}
+	.menu ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		font-size: 21px;
+	}
+	.menu li{
+		float: left;
+		border-right: solid #A9A9A9 1px;
+	}
+	.menu li:last-child{
+		border-right: none;
+	}
+	.buttons li a{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		padding: 4px 12px;
+		color: #6495ED;
+	}
+	.buttons li a:hover{
+		color: #A9A9A9;
+	}
+
+	/** this settings control the body for Tablet view **/
+	.verse{
+		width: 96%;
+		margin: auto;
+	}
+	.verse sup {
+		float: right;
+	}
+	.verse p {
+		text-align: center;
+		font-size: 18px;
+		width: 100%;
+		margin: 3% auto;
+	}
+
+	.body {
+	 	width: 96%;
+	 	margin: 6% auto;
+	 	font-size: 15px;
+	 }
+
+	.articles {
+		list-style-type: none;
+	 }
+	 .follow_us {
+	 	
+	 }
+	 .follow_us a{
+	 	font-size: 27px;
+	 }
+}

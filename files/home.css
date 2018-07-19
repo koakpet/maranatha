@@ -1,0 +1,288 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url(http://simply-needles.de/wp-content/uploads/2014/10/grey-background-for-site11.jpg);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/** PC VIEW CONTROLS **/
+@media (min-width: 769px){
+/** this setting controls the hearder display for PC view **/
+	.header_image{
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height:450px; 
+		width: 100%;
+	}
+	.logo {
+		position: absolute;
+		top: 2%;
+		left: 2%;
+		height: 75px;
+		width: 120px;
+	}
+	.header_text{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		position: absolute;
+		top: 39%;
+		text-align: center;
+		width: 100%;
+		color: #ffffff
+	}
+	#main_text{
+		font-size: 75px;
+	}
+	#sub_text{
+		font-size: 24px
+	}
+	.menu{
+		position: absolute;
+		top: 2%;
+		right: 6px;
+	}
+	.menu ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		font-size: 21px;
+	}
+	.menu li{
+		float: left;
+		border-right: solid #A9A9A9 1px;
+	}
+	.menu li:last-child{
+		border-right: none;
+	}
+	.buttons li a{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		padding: 4px 12px;
+		color: #6495ED;
+	}
+	.buttons li a:hover{
+		color: #A9A9A9;
+	}
+
+/** this settings control the body for PC view **/
+	.verse{
+		width: 66%;
+		margin: auto;
+	}
+	.verse sup {
+		float: right;
+	}
+	.verse p {
+		text-align: center;
+		font-size: 36px;
+		width: 100%;
+		margin: 6% auto;
+	}
+	.body {
+	 	width: 96%;
+	 	margin: 12% auto;
+	 	font-size: 21px;
+	}
+	.articles {
+		float: left;
+		list-style-type: none;
+	}
+	 .follow_us {
+	 	float: right;
+	}
+	 .follow_us a{
+	 	font-size: 45px;
+	}
+}
+
+/*** TABLET VIEW CONTROLS***/
+@media (max-width: 768px){
+ /** this setting controls the hearder display for Tablet view **/
+	.header_image{
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height:300px; 
+		width: 100%;
+	}
+
+	.logo {
+		position: absolute;
+		top: 2%;
+		left: 2%;
+		height: 60px;
+		width: 105px;
+	}
+	.header_text{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		position: absolute;
+		top: 27%;
+		text-align: center;
+		width: 100%;
+		color: #ffffff
+	}
+	#main_text{
+		font-size: 60px;
+	}
+	#sub_text{
+		font-size: 21px
+	}
+	.menu{
+		position: absolute;
+		top: 2%;
+		right: 6px;
+	}
+	.menu ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		font-size: 21px;
+	}
+	.menu li{
+		float: left;
+		border-right: solid #A9A9A9 1px;
+	}
+	.menu li:last-child{
+		border-right: none;
+	}
+	.buttons li a{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		padding: 4px 12px;
+		color: #6495ED;
+	}
+	.buttons li a:hover{
+		color: #A9A9A9;
+	}
+
+	/** this settings control the body for Tablet view **/
+	.verse{
+		width: 90%;
+		margin: auto;
+	}
+	.verse sup {
+		float: right;
+	}
+	.verse p {
+		text-align: center;
+		font-size: 30px;
+		width: 100%;
+		margin: 3% auto;
+	}
+
+	.body {
+	 	width: 90%;
+	 	margin: 9% auto;
+	 	font-size: 18px;
+	 }
+
+	.articles {
+		float: left;
+		list-style-type: none;
+	 }
+	 .follow_us {
+	 	float: right;
+	 }
+	 .follow_us a{
+	 	font-size: 27px;
+	 }
+}
+
+/***MOBILE VIEW CONTROLS***/
+@media (max-width: 425px){
+/** this setting controls the hearder display for MOBILE view **/
+	.header_image{
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height:150px; 
+		width: 100%;
+	}
+
+	.logo {
+		position: absolute;
+		top: 2%;
+		left: 2%;
+		height: 30px;
+		width: 45px;
+	}
+	.header_text{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		position: absolute;
+		top: 12%;
+		text-align: center;
+		width: 100%;
+		color: #ffffff
+	}
+	#main_text{
+		font-size: 30px;
+	}
+	#sub_text{
+		font-size: 12px
+	}
+	.menu{
+		position: absolute;
+		top: 2%;
+		right: 6px;
+	}
+	.menu ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		font-size: 21px;
+	}
+	.menu li{
+		float: left;
+		border-right: solid #A9A9A9 1px;
+	}
+	.menu li:last-child{
+		border-right: none;
+	}
+	.buttons li a{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		padding: 4px 12px;
+		color: #6495ED;
+	}
+	.buttons li a:hover{
+		color: #A9A9A9;
+	}
+
+	/** this settings control the body for Tablet view **/
+	.verse{
+		width: 96%;
+		margin: auto;
+	}
+	.verse sup {
+		float: right;
+	}
+	.verse p {
+		text-align: center;
+		font-size: 18px;
+		width: 100%;
+		margin: 3% auto;
+	}
+
+	.body {
+	 	width: 96%;
+	 	margin: 6% auto;
+	 	font-size: 15px;
+	 }
+
+	.articles {
+		list-style-type: none;
+	 }
+	 .follow_us {
+	 	
+	 }
+	 .follow_us a{
+	 	font-size: 27px;
+	 }
+}
